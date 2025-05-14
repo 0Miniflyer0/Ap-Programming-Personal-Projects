@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  animation: fadeIn 1s ease-in;
+}
+header {
+  background-color: #007396;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+header:hover {
+  background-color: #ff9800;
+  transition: background-color 0.3s;
+}
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+  background-color: white;
+  margin-top: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+h2 {
+  color: #333;
+}
+ul {
+  list-style: square;
+  padding-left: 1.5rem;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #ddd;
+  margin-top: 2rem;
+}
+blockquote {
+  font-style: italic;
+  color: #555;
+  border-left: 5px solid #007396;
+  padding-left: 1rem;
+  transition: transform 0.3s;
+}
+blockquote:hover {
+  transform: rotate(-2deg) scale(1.05);
+}
+button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #007396;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+button:active {
+  transform: scale(1.1) rotate(2deg);
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
